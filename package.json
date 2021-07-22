@@ -1,0 +1,23 @@
+{
+  "name": "hackclub-starboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "tsc && nodemon dist/index.js",
+    "ts-dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.5.0",
+    "airtable-plusplus": "^0.3.2",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "typescript": "^4.3.5"
+  }
+}
